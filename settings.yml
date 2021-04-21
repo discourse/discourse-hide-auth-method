@@ -1,0 +1,3 @@
+hidden_auth_method_names: 
+  type: list
+  default: ""

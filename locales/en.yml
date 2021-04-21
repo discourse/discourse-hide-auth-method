@@ -1,0 +1,5 @@
+en:
+  theme_metadata:
+    description: Hide one or more auth methods from the UI. They will still be accessible via their `/auth/{name}` URLs.
+    settings:
+      hidden_auth_method_names: Auth methods which should be hidden. Names can be found from their `/auth/{name}/callback` URLs
