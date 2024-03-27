@@ -5,8 +5,10 @@ const HIDDEN_METHODS = settings.hidden_auth_method_names
   .split("|")
   .filter((a) => a);
 
-export default apiInitializer("0.8", (api) => {
-  if (HIDDEN_METHODS.length == 0) return;
+export default apiInitializer("0.8", () => {
+  if (HIDDEN_METHODS.length === 0) {
+    return;
+  }
 
   const methods = findAll();
   for (let i = methods.length - 1; i >= 0; i--) {
