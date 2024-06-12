@@ -1,4 +1,6 @@
 {
   "name": "Hide Auth Method",
-  "component": true
+  "component": true,
+  "license_url": "https://github.com/discourse/discourse-hide-auth-method/blob/main/LICENSE",
+  "about_url": "https://meta.discourse.org/t/hide-an-authentication-method-from-the-ui/227584"
 }
