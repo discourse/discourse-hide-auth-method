@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 fi:
+  theme_metadata:
+    description: Piilota yksi tai useampi todennustapa käyttöliittymästä. Ne ovat edelleen käytettävissä niiden "/auth/{name}"-URL-osoitteiden kautta.
+    settings:
+      hidden_auth_method_names: Todennustavat, jotka tulisi piilottaa. Nimet löytyvät niiden "/auth/{name}/callback"-URL-osoitteista

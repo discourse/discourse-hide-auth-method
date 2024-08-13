@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 pt_BR:
+  theme_metadata:
+    description: Oculte pelo menos um método de autenticação de IU. Ainda poderão ser acessados pelas URLs em seus "/auth/{name}'
+    settings:
+      hidden_auth_method_names: Métodos de autenticação que devem ser ocultos. Confira os nomes nas URLs "/auth/{name}/callback" deles

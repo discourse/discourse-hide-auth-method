@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 ja:
+  theme_metadata:
+    description: UI から 1 つ以上の認証方法を非表示にします。これらの認証方法は `/auth/{name}` URL から引き続きアクセスできます。
+    settings:
+      hidden_auth_method_names: 非表示にする認証方法。名称は `/auth/{name}/callback` URL で確認できます

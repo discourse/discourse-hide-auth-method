@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 nl:
+  theme_metadata:
+    description: Verberg een of meer verificatiemethoden in de UI. Ze zijn nog steeds toegankelijk via hun '/auth/{name}'-URL.
+    settings:
+      hidden_auth_method_names: Verificatiemethoden die verborgen moeten zijn. Namen zijn te vinden via hun '/auth/{name}/callback'-URL.

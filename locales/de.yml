@@ -6,6 +6,6 @@
 
 de:
   theme_metadata:
-    description: Blende eine oder mehrere Authentifizierungsmethoden aus der Benutzeroberfläche aus. Sie sind weiterhin über ihre URLs "/auth/{name}" zugänglich.
+    description: Blende eine oder mehrere Authentifizierungsmethoden aus der Benutzeroberfläche aus. Sie sind weiterhin über ihre `/auth/{name}`-URLs zugänglich.
     settings:
       hidden_auth_method_names: Authentifizierungsmethoden, die versteckt werden sollen. Namen können anhand ihrer `/auth/{name}/callback`-URLs gefunden werden

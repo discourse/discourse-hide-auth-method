@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 fr:
+  theme_metadata:
+    description: Masquez une ou plusieurs méthodes d'authentification dans l'interface utilisateur. Elles seront toujours accessibles via leurs URL `/auth/{name}`.
+    settings:
+      hidden_auth_method_names: Méthodes d'authentification qui doivent être masquées. Les noms peuvent être trouvés à partir de leurs URL `/auth/{name}/callback`
