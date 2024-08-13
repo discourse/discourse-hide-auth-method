@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 zh_CN:
+  theme_metadata:
+    description: 在 UI 中隐藏一种或多种身份验证方法。这些方法仍然可以通过 `/auth/{name}` URL 进行访问。
+    settings:
+      hidden_auth_method_names: 应隐藏的身份验证方法。名称可以从其 `/auth/{name}/callback` URL 中找到

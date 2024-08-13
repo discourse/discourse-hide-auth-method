@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 ar:
+  theme_metadata:
+    description: إخفاء طريقة مصادقة واحدة أو أكثر من واجهة المستخدم. ستظل قابلة للوصول إليها عبر عناوين URL الخاصة بها `/auth/{name}`.
+    settings:
+      hidden_auth_method_names: طرق المصادقة التي ينبغي إخفاؤها. يمكن العثور على الأسماء في عناوين URL الخاصة بها `/auth/{name}/callback`

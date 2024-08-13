@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 tr_TR:
+  theme_metadata:
+    description: Kullanıcı arayüzünden bir veya daha fazla kimlik doğrulama yöntemini gizleyin. Bunlara `/auth/{name}` URL'leri üzerinden hâlâ erişilebilir olur.
+    settings:
+      hidden_auth_method_names: Gizlenmesi gereken kimlik doğrulama yöntemleri. Adlar `/auth/{name}/callback` URL'lerinden bulunabilir
