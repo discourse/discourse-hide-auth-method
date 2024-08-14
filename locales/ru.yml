@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 ru:
+  theme_metadata:
+    description: Скрывает один или несколько методов аутентификации из пользовательского интерфейса. Они по-прежнему будут доступны через URL-адреса `/auth/{name}`.
+    settings:
+      hidden_auth_method_names: Методы аутентификации, которые нужно скрыть. Названия можно найти в их URL-адресах `/auth/{name}/callback`
