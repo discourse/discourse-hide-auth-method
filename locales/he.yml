@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 he:
+  theme_metadata:
+    description: הסתרת שיטה או יותר ממנשק המשתמש. הן עדיין תהיינה נגישות דרך כתובות ה־`‎/auth/{name}` שלהן.
+    settings:
+      hidden_auth_method_names: שיטות האימות שיש להסתיר. אפשר למצוא את השמות דרך כתובות ה־`‎/auth/{name}/callback` שלהן.
