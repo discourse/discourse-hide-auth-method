@@ -1,9 +1,3 @@
-# WARNING: Never edit this file.
-# It will be overwritten when translations are pulled from Crowdin.
-#
-# To work with us on translations, join this project:
-# https://translate.discourse.org/
-
 ru:
   theme_metadata:
     description: Скрывает один или несколько методов аутентификации из пользовательского интерфейса. Они по-прежнему будут доступны через URL-адреса `/auth/{name}`.

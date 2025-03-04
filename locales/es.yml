@@ -1,9 +1,3 @@
-# WARNING: Never edit this file.
-# It will be overwritten when translations are pulled from Crowdin.
-#
-# To work with us on translations, join this project:
-# https://translate.discourse.org/
-
 es:
   theme_metadata:
     description: Oculta uno o más métodos de autenticación de la interfaz de usuario. Seguirán siendo accesibles a través de sus URL «/auth/{name}».
