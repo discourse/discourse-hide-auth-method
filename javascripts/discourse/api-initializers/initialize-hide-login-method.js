@@ -5,7 +5,7 @@ const HIDDEN_METHODS = settings.hidden_auth_method_names
   .split("|")
   .filter((a) => a);
 
-export default apiInitializer("0.8", () => {
+export default apiInitializer(() => {
   if (HIDDEN_METHODS.length === 0) {
     return;
   }
